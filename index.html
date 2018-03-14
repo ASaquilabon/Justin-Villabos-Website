@@ -6,14 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Justin Villabos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
   <header>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Justin Villalobos</a>
+      <a class="navbar-brand" href="#">
+          <img src="assets/images/Villalobos-icon.png" alt="logo" width="25%" height="auto" /> 
+        </div>        
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">About
+            <a class="nav-link" href="#about">About
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -32,37 +36,101 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-      </div>
     </nav>
   </header>
-  <div id="carousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ul class="carousel-indicators">
-      <li data-target="#carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel" data-slide-to="1"></li>
-      <li data-target="#carousel" data-slide-to="2"></li>
-    </ul>
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/Justin-1.jpg" alt="1">
+  <div class="main-container">
+    <!-- Jumbotron -->
+    <div class="jumbotron-fluid">
+      <img src="assets/images/justin-banner1.jpg" alt="Justin Villalobos" width="100%">
+    </div>
+    <!-- About Me Starts -->
+    <div class="about-me">
+      <a name="about">
+        <section class="about">
+      </a>
+      <h1>About Me</h1>
+      <hr>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu orci non diam tincidunt faucibus non eu elit. Duis non
+        vehicula ante. Integer hendrerit dapibus turpis, quis interdum sem malesuada non. Aenean feugiat congue neque, nec
+        sagittis massa sollicitudin vitae. Praesent maximus, risus at malesuada malesuada, ex justo commodo metus, nec aliquam
+        diam lacus eu risus. Nulla sollicitudin fringilla nisl, eget consectetur ipsum ultricies a. Suspendisse nec lobortis
+        magna. Vivamus ac placerat lectus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu orci non diam tincidunt faucibus non eu elit. Duis non
+        vehicula ante. Integer hendrerit dapibus turpis, quis interdum sem malesuada non. Aenean feugiat congue neque, nec
+        sagittis massa sollicitudin vitae. Praesent maximus, risus at malesuada malesuada, ex justo commodo metus, nec aliquam
+        diam lacus eu risus. Nulla sollicitudin fringilla nisl, eget consectetur ipsum ultricies a. Suspendisse nec lobortis
+        magna. Vivamus ac placerat lectus.
+      </p>
+      </section>
+      <!-- End About Me -->
+
+      <!-- MAIN (Center website) -->
+      <div class="portfolio">
+        <a name="collection">
+          <h1>Collection</h1>
+        </a>
+        <hr>
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <img src="assets/images/Tattoo-4.jpg" alt="" width="100%" height="350px">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="assets/images/Tattoo-1.jpg" alt="" width="100%" height="350px">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="assets/images/Tattoo-2.jpg" alt="" width="100%" height="350px">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <img src="assets/images/Tattoo-3.jpg" alt="" width="100%" height="350px">
+              <h3>My Work</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="assets/images/Justin-2.jpg" alt="2">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/Justin-3.jpg" alt="3">
+      <!-- END MAIN -->
+
+      <!-- Contact me -->
+      <div class="contact">
+        <a name="contact-me">
+          <h1>Contact</h1>
+        </a>
+        <img src="assets/images/FB.png" alt="FB">
+        <img src="assets/images/IG.png" alt="Instagram">
+        <img src="assets/images/YOUTUBE.png" alt="Youtube">
+
       </div>
     </div>
   </div>
-
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018 Archie Saquilabon
+    </p>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/javascript/main.js"></script>
-
 
 </body>
 
