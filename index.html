@@ -38,18 +38,18 @@
         </ul>
     </nav>
   </header>
-  <div class="main-container">
     <!-- Jumbotron -->
     <div class="jumbotron-fluid">
       <img src="assets/images/justin-banner1.jpg" alt="Justin Villalobos" width="100%">
     </div>
     <!-- About Me Starts -->
-    <div class="about-me">
+    <!-- <div class="about">
       <a name="about">
         <section class="about">
       </a>
-      <h1>About Me</h1>
       <hr>
+      <img src="assets/images/JustinV.jpg" alt="JV" />
+      <h1>About Me</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu orci non diam tincidunt faucibus non eu elit. Duis non
         vehicula ante. Integer hendrerit dapibus turpis, quis interdum sem malesuada non. Aenean feugiat congue neque, nec
@@ -64,47 +64,19 @@
         diam lacus eu risus. Nulla sollicitudin fringilla nisl, eget consectetur ipsum ultricies a. Suspendisse nec lobortis
         magna. Vivamus ac placerat lectus.
       </p>
-      </section>
+      </section> -->
       <!-- End About Me -->
 
       <!-- MAIN (Center website) -->
-      <div class="portfolio">
-        <a name="collection">
+      <div class="container">
+        <div class="portfolio">
+      <a name="collection">
           <h1>Collection</h1>
         </a>
-        <hr>
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/Tattoo-4.jpg" alt="" width="100%" height="350px">
-              <h3>My Work</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/Tattoo-1.jpg" alt="" width="100%" height="350px">
-              <h3>My Work</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/Tattoo-2.jpg" alt="" width="100%" height="350px">
-              <h3>My Work</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/Tattoo-3.jpg" alt="" width="100%" height="350px">
-              <h3>My Work</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
+        <hr> 
+      <div id="instafeed" class="row"></div>
+      <button id="load-more">Load More</button>
         </div>
-      </div>
       <!-- END MAIN -->
 
       <!-- Contact me -->
@@ -115,10 +87,9 @@
         <img src="assets/images/FB.png" alt="FB">
         <img src="assets/images/IG.png" alt="Instagram">
         <img src="assets/images/YOUTUBE.png" alt="Youtube">
-
+      </div>
       </div>
     </div>
-  </div>
   <footer class="footer">
     <div class="two-toned-footer-color"></div>
     <p class="text-muted text-muted-footer text-center">
@@ -128,10 +99,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/javascript/main.js"></script>
-
+  <script type="text/javascript" src="assets/javascript/instafeed.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/custom.js"></script>
 </body>
 
 </html>

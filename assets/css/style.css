@@ -18,22 +18,41 @@
 .navbar-brand{
     margin-right:-450px;
 }
-/* Center website */
-.main-container {
-    max-width: 100%;
-    margin: auto;
-}
+
 .jumbotron {
     max-width: 100%;
+  
 }
-.about {
+/* .about {
     background-color: #ffffff;
     max-width: 80%;
-}
+    margin-top: 400px;
+    display: inline-block;
+} */
+/* .about>img {
+    width: 20%;
+    height: 45%;
+    float: left;
+    margin-right: 45px;
+    
+} */
 .portfolio {
     background-color: #ffffff;
-    max-width: 80%;
+    max-width: 100%;
     align-content: center;
+    margin-top: 400px;
+}
+.contact {
+    margin-top: 400px;
+}
+.instaimg img {
+    margin-bottom: 30px;
+    filter: gray; /* IE6-9 */
+     -webkit-filter: grayscale(100%);
+}
+.instaimg img:hover {
+    filter: none;
+     -webkit-filter: grayscale(0%);
 }
 h1 {
     font-size: 50px;
