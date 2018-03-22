@@ -24,9 +24,9 @@
 .jumbotron {
     max-width: 100%;
 }
-.jumbotron img{
+/* .jumbotron img{
     margin-top: 1000px;
-}
+} */
 /* .about {
     background-color: #ffffff;
     max-width: 80%;
@@ -41,7 +41,7 @@
     
 } */
 .container {
-    max-width: 80%;
+    max-width: 75%;
 }
 .portfolio {
     background-color: #ffffff;
@@ -56,13 +56,13 @@
     margin-bottom: 30px;
     filter: gray; /* IE6-9 */
      -webkit-filter: grayscale(100%);
-    width:100%;
-    height: 400px;
+    width: 100%;
+    height: 380px;
 }
 .instaimg img:hover {
     filter: none;
      -webkit-filter: grayscale(0%);
-     width: 105%;
+    
 }
 .footer {
     margin-top: 400px;
