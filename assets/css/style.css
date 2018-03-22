@@ -11,17 +11,21 @@
     display: flex;
     align-items: left;
     margin-right:-450px;
+    
   }
   .example5 .navbar-brand>img {
     padding: 0px;
+    margin: -10px;
   }
 .navbar-brand{
-    margin-right:-450px;
+    margin-right:-400px;
 }
 
 .jumbotron {
     max-width: 100%;
-  
+}
+.jumbotron img{
+    margin-top: 1000px;
 }
 /* .about {
     background-color: #ffffff;
@@ -36,6 +40,9 @@
     margin-right: 45px;
     
 } */
+.container {
+    max-width: 80%;
+}
 .portfolio {
     background-color: #ffffff;
     max-width: 100%;
@@ -49,10 +56,16 @@
     margin-bottom: 30px;
     filter: gray; /* IE6-9 */
      -webkit-filter: grayscale(100%);
+    width:100%;
+    height: 400px;
 }
 .instaimg img:hover {
     filter: none;
      -webkit-filter: grayscale(0%);
+     width: 105%;
+}
+.footer {
+    margin-top: 400px;
 }
 h1 {
     font-size: 50px;

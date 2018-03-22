@@ -4,7 +4,7 @@ $(document).ready(function () {
         get: 'user',
         userId: '10455571',
         limit: 12,
-        resolution: "thumbnail",
+        resolution: "standard_resolution",
         accessToken: "10455571.1677ed0.79344b54b740460a99733b39524d0af4",
         sortBy: "most-recent",
         template: '<div class="col-lg-3 gallery instaimg"><a href="{{link}}" title ="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
