@@ -41,7 +41,7 @@
     filter: gray; /* IE6-9 */
      -webkit-filter: grayscale(100%);
     width: 100%;
-    height: 95%;
+    height: 325px;
 }
 .instaimg img:hover {
     filter: none;
